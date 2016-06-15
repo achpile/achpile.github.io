@@ -1,0 +1,6 @@
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #999999; text-decoration: none; }
+
+a:hover .image_wrapper_icon {background: #222222;}
+a:hover .image_wrapper_thread_icon {background: #222222;}
+a:hover .header_02 {color: #999999; text-decoration: none;}

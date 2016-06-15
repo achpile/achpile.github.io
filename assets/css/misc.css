@@ -1,0 +1,4 @@
+.margin_right_10 { margin-right: 10px; }
+.horizontal_divider { background: url(/assets/img/template/horizontal_divider.jpg) bottom repeat-x; }
+.badge {float: right; margin-right: 20px; margin-top: 2px; padding: 5px; padding-left: 15px; padding-right: 15px; font-size: 15pt; background: #131212; border-radius: 10px;}
+.badge-min {float: right; margin: 0px; margin-top: -5px; padding: 5px; padding-left: 15px; padding-right: 10px; font-size: 10pt; font-family: monospace; background: #131212; width: 70px; text-align: right;}

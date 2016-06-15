@@ -1,0 +1,37 @@
+#content_wrapper {
+	clear: both;
+	width: 960px;
+	padding: 10px;
+}
+
+.content_navi {
+	float: left;
+	width: 725px;
+	padding: 1px;
+	padding-right: 0px;
+	margin-bottom: 12px;
+	background: #363434;
+}
+
+.content {
+	float: left;
+	width: 686px;
+	padding: 20px 19px 0 19px;
+	background: #1b1919;
+	border: 1px solid #363434;
+}
+
+.content_section {
+	clear: both;
+	padding: 0 0 0 0;
+}
+
+.content_section p span {
+	color: #ffffff;
+}
+
+div.changelog li {
+	white-space: pre-wrap;
+	font-family: monospace;
+	font-size: 12px;
+}
