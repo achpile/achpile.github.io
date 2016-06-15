@@ -86,7 +86,7 @@ echo <<<HTMLBLOCK
 		</div>
 		</div>
 
-		<div id="footer">Hosted by <a href="http://www.0hosting.me" target=_blank>0Hosting</a></div>
+		<div id="footer"></div>
 		<div style="clear: both; width: 100%; height: 30px; font-size: 1px;"></div>
 	</body>
 	</html>
