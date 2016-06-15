@@ -13,7 +13,7 @@
 	set_links_start();
 	set_link('vimeo'    , 'VK'      , 'https://vk.com/achpile');
 	set_link('facebook2', 'Facebook', 'https://facebook.com/alexander.fedosov.75');
-	set_link('youtube2' , 'Youtube' , 'http://youtube.com/user/Achpile/videos');
+	set_link('youtube2' , 'Youtube' , 'http://youtube.com/user/Achpile');
 	set_link('twitter2' , 'Twitter' , 'https://twitter.com/achpile');
 	set_link('github3'  , 'GitHub'  , 'https://github.com/achpile');
 	set_link('sfml'     , 'SFML'    , 'http://en.sfml-dev.org/forums/index.php?action=profile;u=10826');
