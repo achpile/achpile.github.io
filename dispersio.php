@@ -19,15 +19,14 @@
 	set_subsection_footer();
 
 //######################################################################
-/*
+
 	set_links_start();
-	set_link('github3', 'GitHub'     , 'https://github.com/achpile/fired');
-	set_link('sfml'   , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=16025.0');
+	set_link('sfml'   , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=20444.0');
 	set_links_end();
-*/
+
 //######################################################################
 
-	set_section_video('Trailer', '1WR0fCYJQlI');
+	set_section_video('Live stream by Smokey332', 'cUIYN97nCZM');
 
 //######################################################################
 /*
