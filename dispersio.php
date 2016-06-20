@@ -47,8 +47,12 @@
 	set_subsection_header('Controls');
 	set_control('A'         , 'move left');
 	set_control('D'         , 'move right');
+	set_control('W'         , 'up');
+	set_control('S'         , 'down');
 	set_control('SPACE'     , 'jump');
-	set_control('S'         , 'jump down');
+	set_control('Q'         , 'special');
+	set_control('R'         , 'retry');
+	set_control('ESC'       , 'menu');
 	set_subsection_footer();
 
 //######################################################################
