@@ -49,7 +49,7 @@
 	set_control('W'         , 'up');
 	set_control('S'         , 'down');
 	set_control('SPACE'     , 'jump');
-	set_control('Q'         , 'special');
+	set_control('R-CTRL'    , 'special');
 	set_control('R'         , 'retry');
 	set_control('ESC'       , 'menu');
 	set_subsection_footer();
