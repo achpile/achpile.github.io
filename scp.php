@@ -20,12 +20,6 @@
 
 //######################################################################
 
-	set_links_start();
-	set_link('github3', 'GitHub'     , 'https://github.com/achpile/scp');
-	set_links_end();
-
-//######################################################################
-
 	set_screenshot_start();
 	set_screenshot('scp', '01.jpg');
 	set_screenshot('scp', '02.jpg');
