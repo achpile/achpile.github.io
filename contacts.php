@@ -11,7 +11,7 @@
 
 	set_section_header('Contacts');
 	set_links_start();
-	set_link('vimeo'    , 'VK'       , 'https://vk.com/achpile');
+	set_link('vimeo'    , 'VK'       , 'https://vk.com/achpile_public');
 	set_link('facebook2', 'Facebook' , 'https://facebook.com/alexander.fedosov.75');
 	set_link('youtube2' , 'Youtube'  , 'http://youtube.com/user/Achpile');
 	set_link('twitter2' , 'Twitter'  , 'https://twitter.com/achpile');
