@@ -21,8 +21,17 @@
 //######################################################################
 
 	set_links_start();
-	set_link('sfml'   , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=20444.0');
+	set_link('steam'  , 'Greenlight submission', 'http://steamcommunity.com/sharedfiles/filedetails/?id=756311760');
+	set_link('sfml'   , 'SFML Thread'          , 'http://en.sfml-dev.org/forums/index.php?topic=20444.0');
 	set_links_end();
+
+//######################################################################
+
+	set_section_video('Greenlight Trailer #2', 'ieXlew8E94w');
+
+//######################################################################
+
+	set_section_video('Greenlight Trailer #1', 'DUDNs6_Fuhk');
 
 //######################################################################
 
