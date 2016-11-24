@@ -27,29 +27,12 @@
 
 //######################################################################
 
-	set_section_video('Greenlight Trailer #2', 'ieXlew8E94w');
+	set_section_video('Trailer', 'Jx254GyFb5I');
 
 //######################################################################
 
-	set_section_video('Greenlight Trailer #1', 'DUDNs6_Fuhk');
+	set_section_video('Live stream by Smokey332 (prealpha gameplay)', 'cUIYN97nCZM');
 
-//######################################################################
-
-	set_section_video('Live stream by Smokey332', 'cUIYN97nCZM');
-
-//######################################################################
-/*
-	set_screenshot_start();
-	set_screenshot('dispersio', '01.jpg');
-	set_screenshot('dispersio', '02.jpg');
-	set_screenshot('dispersio', '03.jpg');
-	set_screenshot('dispersio', '04.jpg');
-	set_screenshot('dispersio', '05.jpg');
-	set_screenshot('dispersio', '06.jpg');
-	set_screenshot('dispersio', '07.jpg');
-	set_screenshot('dispersio', '08.jpg');
-	set_screenshot_end();
-*/
 //######################################################################
 
 	set_subsection_header('Controls');
@@ -58,9 +41,11 @@
 	set_control('W'         , 'up');
 	set_control('S'         , 'down');
 	set_control('SPACE'     , 'jump');
-	set_control('R-CTRL'    , 'special');
+	set_control('R-CTRL'    , 'special ability');
 	set_control('R'         , 'retry');
 	set_control('ESC'       , 'menu');
+	set_control('Q'         , 'switch jump');
+	set_control('E'         , 'switch special ability');
 	set_subsection_footer();
 
 //######################################################################

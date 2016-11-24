@@ -6,6 +6,9 @@
 	background-repeat: no-repeat;
 	margin-right: 10px;
 }
+.icon-float {
+	float: right;
+}
 .icon-home {
 	background-position: 0 0;
 }
