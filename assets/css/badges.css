@@ -18,11 +18,11 @@ span.badge {
 }
 
 span.InDev {
-	background-color: #00702a;
+	background-color: #890000;
 }
 
 span.Released {
-	background-color: #890000;
+	background-color: #fdec5f;
 }
 
 span.Stopped {
