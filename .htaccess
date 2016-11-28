@@ -1,2 +1,7 @@
 ErrorDocument 404 /404.php
 Options -Indexes
+
+<Files ./composer.json>
+Order Allow,Deny
+Deny from all
+</Files>
