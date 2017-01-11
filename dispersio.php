@@ -9,7 +9,7 @@
 
 //######################################################################
 
-	set_project_status('InDev');
+	set_project_status('Released');
 	set_section_header('Dispersio');
 
 //######################################################################
@@ -27,11 +27,9 @@
 
 //######################################################################
 
-	set_section_video('Trailer', 'Jx254GyFb5I');
-
-//######################################################################
-
-	set_section_video('Live stream by Smokey332 (prealpha gameplay)', 'cUIYN97nCZM');
+	set_section_video('Trailer'    , 'Jx254GyFb5I');
+	set_section_video('v0.3.3 demo', 'wMEsxN73uHc');
+	set_section_video('v0.1.0 demo', '1WR0fCYJQlI');
 
 //######################################################################
 
