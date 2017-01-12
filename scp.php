@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('SCP is a 2D metroidvania horror game.');
+	set_subsection_text('SCP: The First Day is a 2D metroidvania horror game.');
 	set_subsection_footer();
 
 //######################################################################
