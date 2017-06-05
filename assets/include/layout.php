@@ -47,9 +47,10 @@ echo <<<HTMLBLOCK
 
 			<div class="header_03">Games</div>
 			<ul>
-				<li><a href="/dispersio.php"><i class="icon-float icon-steam"></i>Dispersio         </a></li>
-				<li><a href="/scp-3d.php"   ><i class="icon-float           "></i>SCP               </a></li>
-				<li><a href="/fired.php"    ><i class="icon-float           "></i>F.I.R.E.D.        </a></li>
+				<li><a href="/dispersio.php" ><i class="icon-float icon-steam"></i>Dispersio         </a></li>
+				<li><a href="/dispersio2.php"><i class="icon-float           "></i>Dispersio 2       </a></li>
+				<li><a href="/scp-3d.php"    ><i class="icon-float           "></i>SCP               </a></li>
+				<li><a href="/fired.php"     ><i class="icon-float           "></i>F.I.R.E.D.        </a></li>
 			</ul>
 			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
 
