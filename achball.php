@@ -19,11 +19,11 @@
 	set_subsection_footer();
 
 //######################################################################
-/*
+
 	set_links_start();
-	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=22171.0');
+	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=22570.0');
 	set_links_end();
-*/
+
 //######################################################################
 
 	set_section_video('v0.4.0 demo', 'Sats2K9FZt0');
