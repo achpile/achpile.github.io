@@ -37,6 +37,7 @@
 	set_control('W'         , 'increase power');
 	set_control('S'         , 'reduce power');
 	set_control('SPACE'     , 'shot');
+	set_control('R-SHIFT'   , 'precision');
 	set_control('ESC'       , 'exit');
 	set_subsection_footer();
 
