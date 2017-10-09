@@ -32,11 +32,12 @@
 //######################################################################
 
 	set_subsection_header('Controls');
-	set_control('A'         , 'aim left');
-	set_control('D'         , 'aim right');
-	set_control('W'         , 'increase power');
-	set_control('S'         , 'reduce power');
+	set_control('LEFT'      , 'aim left');
+	set_control('RIGHT'     , 'aim right');
+	set_control('UP'        , 'increase power');
+	set_control('DOWN'      , 'reduce power');
 	set_control('SPACE'     , 'shot');
+	set_control('L-SHIFT'   , 'precise');
 	set_control('ESC'       , 'exit');
 	set_subsection_footer();
 
