@@ -32,6 +32,16 @@
 
 //######################################################################
 
+	set_screenshot_start();
+	set_screenshot('achball', '01.jpg');
+	set_screenshot('achball', '02.jpg');
+	set_screenshot('achball', '03.jpg');
+	set_screenshot('achball', '04.jpg');
+	set_screenshot('achball', '05.jpg');
+	set_screenshot_end();
+
+//######################################################################
+
 	set_subsection_header('Controls');
 	set_control('LEFT'      , 'aim left');
 	set_control('RIGHT'     , 'aim right');
