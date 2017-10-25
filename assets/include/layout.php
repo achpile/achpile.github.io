@@ -51,7 +51,7 @@ echo <<<HTMLBLOCK
 			</ul>
 			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
 
-			<div class="header_03">In progress</div>
+			<div class="header_03">In development</div>
 			<ul>
 				<li><a href="/achball.php"   ><i class="icon-float           "></i>AchBall           </a></li>
 			</ul>
