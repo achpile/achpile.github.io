@@ -48,7 +48,7 @@
 	set_control('RIGHT'     , 'aim right');
 	set_control('UP'        , 'increase power');
 	set_control('DOWN'      , 'reduce power');
-	set_control('SPACE'     , 'shot');
+	set_control('SPACE'     , 'shoot');
 	set_control('L-SHIFT'   , 'precise');
 	set_control('ESC'       , 'exit');
 	set_subsection_footer();
