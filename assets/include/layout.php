@@ -45,14 +45,11 @@ function set_menu() {
 	add_menu_item("Dispersio", "/dispersio.php", "_self", "icon-steam");
 	end_section_submenu();
 
-	start_section_submenu("In development");
-	add_menu_item("AchBall", "/achball.php", "_self", "");
-	end_section_submenu();
-
-	start_section_submenu("Abandoned");
-	add_menu_item("Dispersio 2", "/dispersio2.php", "_self", "");
-	add_menu_item("SCP 3D"     , "/scp-3d.php"    , "_self", "");
-	add_menu_item("F.I.R.E.D." , "/fired.php"     , "_self", "");
+	start_section_submenu("Unreleased");
+	add_menu_item("AchBall"    , "/achball.php"   , "_self", "icon-hammer");
+	add_menu_item("Dispersio 2", "/dispersio2.php", "_self", ""           );
+	add_menu_item("SCP 3D"     , "/scp-3d.php"    , "_self", ""           );
+	add_menu_item("F.I.R.E.D." , "/fired.php"     , "_self", ""           );
 	end_section_submenu();
 
 	start_section_submenu("Tools");
@@ -64,10 +61,11 @@ function set_menu() {
 	end_section_submenu();
 
 	start_section_submenu("Some good links");
-	add_menu_item("SFML"          , "https://sfml-dev.org/"    , "_blank", "");
-	add_menu_item("Jansson"       , "http://digip.org/jansson/", "_blank", "");
-	add_menu_item("SQLite"        , "https://sqlite.org/"      , "_blank", "");
-	add_menu_item("SCP Foundation", "http://scp-wiki.net/"     , "_blank", "");
+	add_menu_item("SFML"          , "https://sfml-dev.org/"           , "_blank", "");
+	add_menu_item("Jansson"       , "http://digip.org/jansson/"       , "_blank", "");
+	add_menu_item("SQLite"        , "https://sqlite.org/"             , "_blank", "");
+	add_menu_item("Irrlicht"      , "http://irrlicht.sourceforge.net/", "_blank", "");
+	add_menu_item("SCP Foundation", "http://scp-wiki.net/"            , "_blank", "");
 	end_section_submenu();
 
 	end_section_menu();
