@@ -34,52 +34,43 @@ HTMLBLOCK;
 
 ***********************************************************************/
 function set_menu() {
-echo <<<HTMLBLOCK
+	start_section_menu();
 
-		<div class="side_bar margin_right_10">
+	start_section_submenu("Main Menu");
+	add_menu_item("Home"    , "/"            , "_self", "");
+	add_menu_item("Contacts", "/contacts.php", "_self", "");
+	end_section_submenu();
 
-			<div class="header_03">Main Menu</div>
-			<ul>
-				<li><a href="/"            >Home    </a></li>
-				<li><a href="/contacts.php">Contacts</a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
+	start_section_submenu("Games");
+	add_menu_item("Dispersio", "/dispersio.php", "_self", "icon-steam");
+	end_section_submenu();
 
-			<div class="header_03">Games</div>
-			<ul>
-				<li><a href="/dispersio.php" ><i class="icon-float icon-steam"></i>Dispersio         </a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
+	start_section_submenu("In development");
+	add_menu_item("AchBall", "/achball.php", "_self", "");
+	end_section_submenu();
 
-			<div class="header_03">In development</div>
-			<ul>
-				<li><a href="/achball.php"   ><i class="icon-float           "></i>AchBall           </a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
+	start_section_submenu("Abandoned");
+	add_menu_item("Dispersio 2", "/dispersio2.php", "_self", "");
+	add_menu_item("SCP 3D"     , "/scp-3d.php"    , "_self", "");
+	add_menu_item("F.I.R.E.D." , "/fired.php"     , "_self", "");
+	end_section_submenu();
 
-			<div class="header_03">Abandoned</div>
-			<ul>
-				<li><a href="/dispersio2.php"><i class="icon-float           "></i>Dispersio 2       </a></li>
-				<li><a href="/scp-3d.php"    ><i class="icon-float           "></i>SCP               </a></li>
-				<li><a href="/fired.php"     ><i class="icon-float           "></i>F.I.R.E.D.        </a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
+	start_section_submenu("Tools");
+	add_menu_item("AchSplit", "/achsplit.php", "_self", "");
+	end_section_submenu();
 
-			<div class="header_03">Tools</div>
-			<ul>
-				<li><a href="/achsplit.php">AchSplit</a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
+	start_section_submenu("My stuff");
+	add_menu_item("SFML Lighting", "https://github.com/achpile/sfml-lighting", "_blank", "");
+	end_section_submenu();
 
-			<div class="header_03">Examples</div>
-			<ul>
-				<li><a target="_blank" href="https://github.com/achpile/sfml-lighting">SFML Lighting</a></li>
-			</ul>
-			<div style="clear: both; width: 100%; height: 40px; font-size: 1px;"></div>
-		</div>
-		<div class="content">
+	start_section_submenu("Some good links");
+	add_menu_item("SFML"          , "https://sfml-dev.org/"    , "_blank", "");
+	add_menu_item("Jansson"       , "http://digip.org/jansson/", "_blank", "");
+	add_menu_item("SQLite"        , "https://sqlite.org/"      , "_blank", "");
+	add_menu_item("SCP Foundation", "http://scp-wiki.net/"     , "_blank", "");
+	end_section_submenu();
 
-HTMLBLOCK;
+	end_section_menu();
 }
 
 

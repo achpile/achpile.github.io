@@ -1,5 +1,6 @@
 <?php
 
+include('assets/include/menu.php');
 include('assets/include/layout.php');
 include('assets/include/misc.php');
 include('assets/include/meta.php');
