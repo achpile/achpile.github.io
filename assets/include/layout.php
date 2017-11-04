@@ -43,10 +43,10 @@ function set_menu() {
 
 	start_section_submenu("Games");
 	add_menu_item("Dispersio", "/dispersio.php", "_self", "icon-steam");
+	add_menu_item("AchBall"  , "/achball.php"  , "_self", "icon-steam");
 	end_section_submenu();
 
 	start_section_submenu("Unreleased");
-	add_menu_item("AchBall"    , "/achball.php"   , "_self", "icon-hammer");
 	add_menu_item("Dispersio 2", "/dispersio2.php", "_self", ""           );
 	add_menu_item("SCP 3D"     , "/scp-3d.php"    , "_self", ""           );
 	add_menu_item("F.I.R.E.D." , "/fired.php"     , "_self", ""           );

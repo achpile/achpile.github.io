@@ -27,6 +27,10 @@
 
 //######################################################################
 
+	set_section_steam('739180');
+
+//######################################################################
+
 	set_section_video('Trailer'    , 'CUZGqqZisF8');
 	set_section_video('v0.7.1 demo', 'FRBZ5N-ViP0');
 	set_section_video('v0.4.2 demo', 'M73XtrGeVJE');
