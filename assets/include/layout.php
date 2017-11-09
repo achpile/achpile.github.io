@@ -65,6 +65,8 @@ function set_menu() {
 	add_menu_item("Jansson"       , "http://digip.org/jansson/"       , "_blank", "");
 	add_menu_item("SQLite"        , "https://sqlite.org/"             , "_blank", "");
 	add_menu_item("Irrlicht"      , "http://irrlicht.sourceforge.net/", "_blank", "");
+	add_menu_item("BitBucket"     , "https://bitbucket.org/"          , "_blank", "");
+	add_menu_item("OpenGameArt"   , "https://opengameart.org/"        , "_blank", "");
 	add_menu_item("SCP Foundation", "http://scp-wiki.net/"            , "_blank", "");
 	end_section_submenu();
 
