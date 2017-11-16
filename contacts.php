@@ -18,7 +18,6 @@
 	set_link('github3'  , 'GitHub'   , 'https://github.com/achpile');
 	set_link('sfml'     , 'SFML'     , 'http://en.sfml-dev.org/forums/index.php?action=profile;u=10826');
 	set_link('mail4'    , 'E-Mail'   , 'mailto:achpile@gmail.com');
-	set_link('coin'     , 'Donations', 'https://money.yandex.ru/to/410011328479191');
 	set_links_end();
 
 //######################################################################
