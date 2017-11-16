@@ -66,7 +66,7 @@ HTMLBLOCK;
 function add_menu_item($name, $link, $target, $icon) {
 echo <<<HTMLBLOCK
 
-<li><a href="$link" target="$target"><i class="icon-float $icon"></i>$name</a></li>
+<li><a href="$link" target="$target"><i class="icon-float icon-$icon"></i>$name</a></li>
 
 HTMLBLOCK;
 }
