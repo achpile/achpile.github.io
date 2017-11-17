@@ -5,7 +5,7 @@
 
 ***********************************************************************/
 function set_deps_start() {
-	set_subsection_header('Dependencies');
+	set_subsection_header('Libraries');
 
 echo <<<HTMLBLOCK
 
