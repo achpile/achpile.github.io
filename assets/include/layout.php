@@ -37,8 +37,9 @@ function set_menu() {
 	start_section_menu();
 
 	start_section_submenu("Main Menu");
-	add_menu_item("Home"    , "/"            , "_self", "home"        );
-	add_menu_item("Contacts", "/contacts.php", "_self", "address-book");
+	add_menu_item("Home"                , "/"                                        , "_self" , "home"        );
+	add_menu_item("Contacts"            , "/contacts.php"                            , "_self" , "address-book");
+	add_menu_item("Achpile games bundle", "http://store.steampowered.com/bundle/5469", "_blank", "steam");
 	end_section_submenu();
 
 	start_section_submenu("Games");
