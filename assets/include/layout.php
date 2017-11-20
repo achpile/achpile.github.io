@@ -58,7 +58,8 @@ function set_menu() {
 	end_section_submenu();
 
 	start_section_submenu("My coding stuff");
-	add_menu_item("SFML Lighting", "https://github.com/achpile/sfml-lighting", "_blank", "book");
+	add_menu_item("SFML Lighting" , "https://github.com/achpile/sfml-lighting", "_blank", "book");
+	add_menu_item("Simple arcades", "https://github.com/achpile/arcade"       , "_blank", "book");
 	end_section_submenu();
 
 	start_section_submenu("Donate");
