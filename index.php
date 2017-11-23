@@ -21,6 +21,26 @@
 
 //######################################################################
 
+	set_links_start('Some of my coding stuff');
+	set_link('book', 'Simple arcades', 'https://github.com/achpile/arcade'       );
+	set_link('book', 'SFML Lighting' , 'https://github.com/achpile/sfml-lighting');
+	set_links_end();
+
+//######################################################################
+
+	set_links_start('Just a good links');
+	set_link('link', 'SFML'            , 'https://sfml-dev.org/'           );
+	set_link('link', 'Jansson'         , 'http://digip.org/jansson/'       );
+	set_link('link', 'Tiled Map Editor', 'http://www.mapeditor.org/'       );
+	set_link('link', 'SQLite'          , 'https://sqlite.org/'             );
+	set_link('link', 'Irrlicht'        , 'http://irrlicht.sourceforge.net/');
+	set_link('link', 'BitBucket'       , 'https://bitbucket.org/'          );
+	set_link('link', 'OpenGameArt'     , 'https://opengameart.org/'        );
+	set_link('link', 'SCP Foundation'  , 'http://scp-wiki.net/'            );
+	set_links_end();
+
+//######################################################################
+
 	set_footer();
 
 ?>

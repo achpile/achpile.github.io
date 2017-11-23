@@ -4,8 +4,8 @@
     * set_links_start
 
 ***********************************************************************/
-function set_links_start() {
-	set_subsection_header('Links');
+function set_links_start($caption) {
+	set_subsection_header($caption);
 
 echo <<<HTMLBLOCK
 

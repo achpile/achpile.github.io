@@ -20,7 +20,7 @@
 
 //######################################################################
 
-	set_links_start();
+	set_links_start('Links');
 	set_link('github3', 'GitHub'     , 'https://github.com/achpile/fired');
 	set_link('sfml'   , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=16025.0');
 	set_links_end();

@@ -20,7 +20,7 @@
 
 //######################################################################
 
-	set_links_start();
+	set_links_start('Links');
 	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=22171.0');
 	set_links_end();
 

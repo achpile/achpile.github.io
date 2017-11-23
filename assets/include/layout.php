@@ -36,45 +36,30 @@ HTMLBLOCK;
 function set_menu() {
 	start_section_menu();
 
-	start_section_submenu("Main Menu");
-	add_menu_item("Home"                , "/"                                        , "_self" , "home"        );
-	add_menu_item("Contacts"            , "/contacts.php"                            , "_self" , "address-book");
-	add_menu_item("Achpile games bundle", "http://store.steampowered.com/bundle/5469", "_blank", "steam");
+	start_section_submenu('Main Menu');
+	add_menu_item('Home'                , '/'                                        , '_self' , 'home'        );
+	add_menu_item('Contacts'            , '/contacts.php'                            , '_self' , 'address-book');
+	add_menu_item('Achpile games bundle', 'http://store.steampowered.com/bundle/5469', '_blank', 'steam'       );
 	end_section_submenu();
 
-	start_section_submenu("Games");
-	add_menu_item("Dispersio", "/dispersio.php", "_self", "steam");
-	add_menu_item("AchBall"  , "/achball.php"  , "_self", "steam");
+	start_section_submenu('Games');
+	add_menu_item('Dispersio', '/dispersio.php', '_self', 'steam');
+	add_menu_item('AchBall'  , '/achball.php'  , '_self', 'steam');
 	end_section_submenu();
 
-	start_section_submenu("Unreleased");
-	add_menu_item("Dispersio 2", "/dispersio2.php", "_self", "blocked");
-	add_menu_item("SCP 3D"     , "/scp-3d.php"    , "_self", "blocked");
-	add_menu_item("F.I.R.E.D." , "/fired.php"     , "_self", "blocked");
+	start_section_submenu('Unreleased');
+	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'blocked');
+	add_menu_item('SCP 3D'     , '/scp-3d.php'    , '_self', 'blocked');
+	add_menu_item('F.I.R.E.D.' , '/fired.php'     , '_self', 'blocked');
 	end_section_submenu();
 
-	start_section_submenu("Tools");
-	add_menu_item("AchSplit", "/achsplit.php", "_self", "wrench");
+	start_section_submenu('Tools');
+	add_menu_item('AchSplit', '/achsplit.php', '_self', 'wrench');
 	end_section_submenu();
 
-	start_section_submenu("My coding stuff");
-	add_menu_item("SFML Lighting" , "https://github.com/achpile/sfml-lighting", "_blank", "book");
-	add_menu_item("Simple arcades", "https://github.com/achpile/arcade"       , "_blank", "book");
-	end_section_submenu();
-
-	start_section_submenu("Donate");
-	add_menu_item("PayPal", "https://paypal.me/achpile                 ", "_blank", "paypal");
-	add_menu_item("Yandex", "https://money.yandex.ru/to/410011328479191", "_blank", "yandex");
-	end_section_submenu();
-
-	start_section_submenu("Some good links");
-	add_menu_item("SFML"          , "https://sfml-dev.org/"           , "_blank", "link");
-	add_menu_item("Jansson"       , "http://digip.org/jansson/"       , "_blank", "link");
-	add_menu_item("SQLite"        , "https://sqlite.org/"             , "_blank", "link");
-	add_menu_item("Irrlicht"      , "http://irrlicht.sourceforge.net/", "_blank", "link");
-	add_menu_item("BitBucket"     , "https://bitbucket.org/"          , "_blank", "link");
-	add_menu_item("OpenGameArt"   , "https://opengameart.org/"        , "_blank", "link");
-	add_menu_item("SCP Foundation", "http://scp-wiki.net/"            , "_blank", "link");
+	start_section_submenu('Donate');
+	add_menu_item('PayPal', 'https://paypal.me/achpile                 ', '_blank', 'paypal');
+	add_menu_item('Yandex', 'https://money.yandex.ru/to/410011328479191', '_blank', 'yandex');
 	end_section_submenu();
 
 	end_section_menu();
