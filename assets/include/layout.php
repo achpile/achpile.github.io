@@ -54,7 +54,8 @@ function set_menu() {
 	end_section_submenu();
 
 	start_section_submenu('Tools');
-	add_menu_item('AchSplit', '/achsplit.php', '_self', 'wrench');
+	add_menu_item('Neural Networks', '/neural.php'  , '_self', 'wrench');
+	add_menu_item('AchSplit'       , '/achsplit.php', '_self', 'wrench');
 	end_section_submenu();
 
 	start_section_submenu('Donate');
