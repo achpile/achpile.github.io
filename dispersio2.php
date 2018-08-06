@@ -26,6 +26,7 @@
 
 //######################################################################
 
+	set_section_video('v0.4.3 demo', 'tuOeyttiOTk');
 	set_section_video('v0.3.9 demo', 'PRJwGcadf_U');
 	set_section_video('v0.2.7 demo', 'gGZmp_ka58s');
 
