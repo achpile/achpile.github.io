@@ -32,6 +32,16 @@
 
 //######################################################################
 
+	set_screenshot_start();
+	set_screenshot('dispersio2', '01.jpg');
+	set_screenshot('dispersio2', '02.jpg');
+	set_screenshot('dispersio2', '03.jpg');
+	set_screenshot('dispersio2', '04.jpg');
+	set_screenshot('dispersio2', '05.jpg');
+	set_screenshot_end();
+
+//######################################################################
+
 	set_subsection_header('Controls');
 	set_control('A'         , 'move left');
 	set_control('D'         , 'move right');
