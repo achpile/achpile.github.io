@@ -49,7 +49,7 @@
 	set_control('S'         , 'down');
 	set_control('SPACE'     , 'jump');
 	set_control('R-CTRL'    , 'attack');
-	set_control('R-SHIFT'   , 'use tool');
+	set_control('R-SHIFT'   , 'dash');
 	set_control('ESC'       , 'menu');
 	set_subsection_footer();
 
