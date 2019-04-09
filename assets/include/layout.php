@@ -49,6 +49,7 @@ function set_menu() {
 
 	start_section_submenu('In progress');
 	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'cogs');
+	add_menu_item('Dispersio 3', '/dispersio3.php', '_self', 'cogs');
 	end_section_submenu();
 
 	start_section_submenu('Unreleased');
