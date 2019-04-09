@@ -20,6 +20,16 @@
 
 //######################################################################
 
+	set_links_start('Links');
+	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=25267.0');
+	set_links_end();
+
+//######################################################################
+
+	set_section_video('v0.3.6 demo', 'fSVzTsDdxMg');
+
+//######################################################################
+
 	set_subsection_header('Controls');
 	set_control('A'         , 'move left');
 	set_control('D'         , 'move right');
