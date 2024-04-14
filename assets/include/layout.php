@@ -37,34 +37,23 @@ function set_menu() {
 	start_section_menu();
 
 	start_section_submenu('Main Menu');
-	add_menu_item('Home'                , '/'                                        , '_self' , 'home'        );
-	add_menu_item('Contacts'            , '/contacts.php'                            , '_self' , 'address-book');
-	add_menu_item('Achpile games bundle', 'http://store.steampowered.com/bundle/5469', '_blank', 'steam'       );
+	add_menu_item('Home', '/', '_self' , 'home');
 	end_section_submenu();
 
 	start_section_submenu('Games');
-	add_menu_item('Dispersio', '/dispersio.php', '_self', 'steam');
-	add_menu_item('AchBall'  , '/achball.php'  , '_self', 'steam');
+	add_menu_item('AchBall'    , '/achball.php'   , '_self', 'steam');
+	add_menu_item('Dispersio'  , '/dispersio.php' , '_self', 'steam');
+	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'steam');
 	end_section_submenu();
 
-	start_section_submenu('In progress');
-	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'cogs');
-	add_menu_item('Dispersio 3', '/dispersio3.php', '_self', 'cogs');
-	end_section_submenu();
-
-	start_section_submenu('Unreleased');
+	start_section_submenu('Cancelled');
 	add_menu_item('SCP 3D'     , '/scp-3d.php'    , '_self', 'blocked');
 	add_menu_item('F.I.R.E.D.' , '/fired.php'     , '_self', 'blocked');
+	add_menu_item('Dispersio X', '/dispersioX.php', '_self', 'blocked');
 	end_section_submenu();
 
-	start_section_submenu('Tools');
+	start_section_submenu('Misc');
 	add_menu_item('Neural Networks', '/neural.php'  , '_self', 'wrench');
-	add_menu_item('AchSplit'       , '/achsplit.php', '_self', 'wrench');
-	end_section_submenu();
-
-	start_section_submenu('Donate');
-	add_menu_item('PayPal', 'https://paypal.me/achpile                 ', '_blank', 'paypal');
-	add_menu_item('Yandex', 'https://money.yandex.ru/to/410011328479191', '_blank', 'yandex');
 	end_section_submenu();
 
 	end_section_menu();

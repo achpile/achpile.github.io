@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio is a retro-styled adventure platformer written in C++ with SFML');
+	set_subsection_text('Dispersio is a retro-styled action platformer. As you progress through the game, you will have to use and combine special abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players.');
 	set_subsection_footer();
 
 //######################################################################
@@ -46,27 +46,6 @@
 
 //######################################################################
 
-	set_subsection_header('Controls');
-	set_control('A'         , 'move left');
-	set_control('D'         , 'move right');
-	set_control('W'         , 'up');
-	set_control('S'         , 'down');
-	set_control('SPACE'     , 'jump');
-	set_control('R-CTRL'    , 'special ability');
-	set_control('R'         , 'retry');
-	set_control('ESC'       , 'menu');
-	set_control('Q'         , 'switch jump');
-	set_control('E'         , 'switch special ability');
-	set_subsection_footer();
-
-//######################################################################
-
-	set_deps_start();
-	set_deps('SFML'   , 'http://sfml-dev.org/');
-	set_deps('Jansson', 'http://www.digip.org/jansson/');
-	set_deps_end();
-
-//######################################################################
 
 	set_footer();
 

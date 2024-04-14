@@ -15,28 +15,30 @@
 //######################################################################
 
 	set_subsection_header('About Me');
-	set_subsection_text('I am Linux embedded software developer at <a href="http://www.dlink.ru/en/">D-Link Russia inc.</a>, currently living in Ryazan, Russia');
-	set_subsection_text('But my real passion is a Game Development. My dream is to make a really nice game, and as a gamer I know what is nice and what is not.');
+	set_subsection_text('I am Linux embedded software developer at <a href="http://www.dlink.ru/en/">D-Link Russia inc.</a>, currently living in Ryazan, Russia.');
+	set_subsection_text('My hobby is game development. You may check them out, they are free to play.');
 	set_subsection_footer();
 
 //######################################################################
 
-	set_links_start('Some of my coding stuff');
-	set_link('book', 'Simple arcades', 'https://github.com/achpile/arcade'       );
-	set_link('book', 'SFML Lighting' , 'https://github.com/achpile/sfml-lighting');
+	set_links_start('Contacts');
+	set_link('vimeo'    , 'VK'           , 'https://vk.com/achpile_public');
+	set_link('youtube2' , 'Youtube'      , 'http://youtube.com/user/Achpile');
+	set_link('twitter2' , 'Twitter'      , 'https://twitter.com/achpile');
+	set_link('github3'  , 'GitHub'       , 'https://github.com/achpile');
+	set_link('steam'    , 'Steam profile', 'http://steamcommunity.com/id/achpile');
+	set_link('sfml'     , 'SFML'         , 'http://en.sfml-dev.org/forums/index.php?action=profile;u=10826');
+	set_link('mail4'    , 'E-Mail'       , 'mailto:achpile@gmail.com');
 	set_links_end();
 
 //######################################################################
 
-	set_links_start('Just a good links');
-	set_link('link', 'SFML'            , 'https://sfml-dev.org/'           );
-	set_link('link', 'Jansson'         , 'http://digip.org/jansson/'       );
-	set_link('link', 'Tiled Map Editor', 'http://www.mapeditor.org/'       );
-	set_link('link', 'SQLite'          , 'https://sqlite.org/'             );
-	set_link('link', 'Irrlicht'        , 'http://irrlicht.sourceforge.net/');
-	set_link('link', 'BitBucket'       , 'https://bitbucket.org/'          );
-	set_link('link', 'OpenGameArt'     , 'https://opengameart.org/'        );
-	set_link('link', 'SCP Foundation'  , 'http://scp-wiki.net/'            );
+	set_links_start('Just some good stuff');
+	set_link('link', 'SFML'            , 'https://sfml-dev.org/'    );
+	set_link('link', 'Jansson'         , 'http://digip.org/jansson/');
+	set_link('link', 'Tiled Map Editor', 'http://www.mapeditor.org/');
+	set_link('link', 'OpenGameArt'     , 'https://opengameart.org/' );
+	set_link('link', 'SCP Foundation'  , 'http://scp-wiki.net/'     );
 	set_links_end();
 
 //######################################################################

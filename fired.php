@@ -15,14 +15,13 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('F.I.R.E.D. is a 2D cross-platform game with elements of Action, RPG and Adventure. Game written in C++ using SFML and SQLite');
+	set_subsection_text('It was my first project where I just practiced skills. I developed a lot of things here which migrated to later projects.');
 	set_subsection_footer();
 
 //######################################################################
 
 	set_links_start('Links');
-	set_link('github3', 'GitHub'     , 'https://github.com/achpile/fired');
-	set_link('sfml'   , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=16025.0');
+	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=16025.0');
 	set_links_end();
 
 //######################################################################
@@ -41,28 +40,6 @@
 	set_screenshot('fired', '07.jpg');
 	set_screenshot('fired', '08.jpg');
 	set_screenshot_end();
-
-//######################################################################
-
-	set_subsection_header('Controls');
-	set_control('A'         , 'move left');
-	set_control('D'         , 'move right');
-	set_control('SPACE'     , 'jump');
-	set_control('S'         , 'jump down');
-	set_control('LEFT MOUSE', 'shoot');
-	set_control('Q'         , 'switch weapon');
-	set_control('E'         , 'interact');
-	set_control('C'         , 'character window');
-	set_control('I'         , 'inventory window');
-	set_control('ESC'       , 'menu');
-	set_subsection_footer();
-
-//######################################################################
-
-	set_deps_start();
-	set_deps('SFML'  , 'http://sfml-dev.org/');
-	set_deps('SQLite', 'http://sqlite.org/');
-	set_deps_end();
 
 //######################################################################
 

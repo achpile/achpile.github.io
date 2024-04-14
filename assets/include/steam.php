@@ -5,7 +5,7 @@
 
 ***********************************************************************/
 function set_section_steam($id) {
-	set_subsection_header('Buy on Steam');
+	set_subsection_header('Get it on Steam');
 
 echo <<<HTMLBLOCK
 

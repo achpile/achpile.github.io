@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('AchBall is a casual arcade game written in C++ with SFML');
+	set_subsection_text('AchBall is a casual game in which you hit goals by launching a ball. You score extra points for each time the ball bounces.');
 	set_subsection_footer();
 
 //######################################################################
@@ -45,25 +45,6 @@
 	set_screenshot('achball', '04.jpg');
 	set_screenshot('achball', '05.jpg');
 	set_screenshot_end();
-
-//######################################################################
-
-	set_subsection_header('Controls');
-	set_control('LEFT'      , 'aim left');
-	set_control('RIGHT'     , 'aim right');
-	set_control('UP'        , 'increase power');
-	set_control('DOWN'      , 'reduce power');
-	set_control('SPACE'     , 'shoot');
-	set_control('L-SHIFT'   , 'precise');
-	set_control('ESC'       , 'exit');
-	set_subsection_footer();
-
-//######################################################################
-
-	set_deps_start();
-	set_deps('SFML'   , 'http://sfml-dev.org/');
-	set_deps('Jansson', 'http://www.digip.org/jansson/');
-	set_deps_end();
 
 //######################################################################
 

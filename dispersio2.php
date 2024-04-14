@@ -9,13 +9,13 @@
 
 //######################################################################
 
-	set_project_status('InDev');
+	set_project_status('Released');
 	set_section_header('Dispersio 2');
 
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio 2 is a retro-styled metroidvania written in C++ with SFML');
+	set_subsection_text('Dispersio 2 is a retro-styled metroidvania. As you progress through the game, you will gain new abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players. Can you beat the game with only 1 HP? ');
 	set_subsection_footer();
 
 //######################################################################
@@ -26,6 +26,11 @@
 
 //######################################################################
 
+	set_section_steam('1489850');
+
+//######################################################################
+
+	set_section_video('Trailer'    , 'iLgFlBSh7y0');
 	set_section_video('v0.4.3 demo', 'tuOeyttiOTk');
 	set_section_video('v0.3.9 demo', 'PRJwGcadf_U');
 	set_section_video('v0.2.7 demo', 'gGZmp_ka58s');
@@ -39,26 +44,6 @@
 	set_screenshot('dispersio2', '04.jpg');
 	set_screenshot('dispersio2', '05.jpg');
 	set_screenshot_end();
-
-//######################################################################
-
-	set_subsection_header('Controls');
-	set_control('A'         , 'move left');
-	set_control('D'         , 'move right');
-	set_control('W'         , 'up');
-	set_control('S'         , 'down');
-	set_control('SPACE'     , 'jump');
-	set_control('R-CTRL'    , 'attack');
-	set_control('R-SHIFT'   , 'dash');
-	set_control('ESC'       , 'menu');
-	set_subsection_footer();
-
-//######################################################################
-
-	set_deps_start();
-	set_deps('SFML'   , 'http://sfml-dev.org/');
-	set_deps('Jansson', 'http://www.digip.org/jansson/');
-	set_deps_end();
 
 //######################################################################
 

@@ -9,13 +9,13 @@
 
 //######################################################################
 
-	set_project_status('InDev');
-	set_section_header('Dispersio 3');
+	set_project_status('Stopped');
+	set_section_header('Dispersio X');
 
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio 3 is a retro-styled adventure platformer written in C++ with SFML');
+	set_subsection_text('It was supposed to be Dispersio 3 but I decided not to do another precision platformer');
 	set_subsection_footer();
 
 //######################################################################
@@ -27,25 +27,6 @@
 //######################################################################
 
 	set_section_video('v0.3.6 demo', 'fSVzTsDdxMg');
-
-//######################################################################
-
-	set_subsection_header('Controls');
-	set_control('A'         , 'move left');
-	set_control('D'         , 'move right');
-	set_control('W'         , 'up');
-	set_control('S'         , 'down');
-	set_control('SPACE'     , 'jump');
-	set_control('R'         , 'retry');
-	set_control('ESC'       , 'menu');
-	set_subsection_footer();
-
-//######################################################################
-
-	set_deps_start();
-	set_deps('SFML'   , 'http://sfml-dev.org/');
-	set_deps('Jansson', 'http://www.digip.org/jansson/');
-	set_deps_end();
 
 //######################################################################
 
