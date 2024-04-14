@@ -53,7 +53,8 @@ function set_menu() {
 	end_section_submenu();
 
 	start_section_submenu('Misc');
-	add_menu_item('Neural Networks', '/neural.php'  , '_self', 'wrench');
+	add_menu_item('Neural Networks', '/neural.php', '_self', 'wrench');
+	add_menu_item('Lines'          , '/lines.php' , '_self', 'wrench');
 	end_section_submenu();
 
 	end_section_menu();
