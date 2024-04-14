@@ -9,7 +9,7 @@ function set_section_steam($id) {
 
 echo <<<HTMLBLOCK
 
-<iframe src="http://store.steampowered.com/widget/$id/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/$id/" frameborder="0" width="646" height="190"></iframe>
 
 HTMLBLOCK;
 
