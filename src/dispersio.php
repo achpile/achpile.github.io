@@ -1,6 +1,6 @@
 <?php
 
-	include('assets/include/all.php');
+	include('include/all.php');
 
 //######################################################################
 
