@@ -21,7 +21,8 @@
 //######################################################################
 
 	set_links_start('Links');
-	set_link('sfml', 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=22171.0');
+	set_link('steam', 'Steam store page', 'http://store.steampowered.com/app/1489850');
+	set_link('sfml' , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=22171.0');
 	set_links_end();
 
 //######################################################################
