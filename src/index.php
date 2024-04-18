@@ -23,22 +23,22 @@
 
 	set_links_start('Contacts');
 	set_link('vimeo'    , 'VK'           , 'https://vk.com/achpile_public');
-	set_link('youtube2' , 'Youtube'      , 'http://youtube.com/user/Achpile');
+	set_link('youtube2' , 'Youtube'      , 'https://youtube.com/user/Achpile');
 	set_link('twitter2' , 'Twitter'      , 'https://twitter.com/achpile');
 	set_link('github3'  , 'GitHub'       , 'https://github.com/achpile');
-	set_link('steam'    , 'Steam profile', 'http://steamcommunity.com/id/achpile');
-	set_link('sfml'     , 'SFML'         , 'http://en.sfml-dev.org/forums/index.php?action=profile;u=10826');
+	set_link('steam'    , 'Steam profile', 'https://steamcommunity.com/id/achpile');
+	set_link('sfml'     , 'SFML'         , 'https://en.sfml-dev.org/forums/index.php?action=profile;u=10826');
 	set_link('mail4'    , 'E-Mail'       , 'mailto:achpile@gmail.com');
 	set_links_end();
 
 //######################################################################
 
 	set_links_start('Just some good stuff');
-	set_link('link', 'SFML'            , 'https://sfml-dev.org/'    );
-	set_link('link', 'Jansson'         , 'http://digip.org/jansson/');
-	set_link('link', 'Tiled Map Editor', 'http://www.mapeditor.org/');
-	set_link('link', 'OpenGameArt'     , 'https://opengameart.org/' );
-	set_link('link', 'SCP Foundation'  , 'http://scp-wiki.net/'     );
+	set_link('link', 'SFML'            , 'https://sfml-dev.org/');
+	set_link('link', 'Jansson'         , 'https://digip.org/jansson/');
+	set_link('link', 'Tiled Map Editor', 'https://www.mapeditor.org/');
+	set_link('link', 'OpenGameArt'     , 'https://opengameart.org/');
+	set_link('link', 'Sound generator' , 'https://sfbgames.itch.io/chiptone');
 	set_links_end();
 
 //######################################################################
