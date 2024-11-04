@@ -46,9 +46,9 @@ function set_menu() {
 	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'steam');
 	end_section_submenu();
 
-	start_section_submenu('In progress');
-	add_menu_item('Dispersio 3', '/dispersio3.php', '_self', 'cog');
-	end_section_submenu();
+//	start_section_submenu('In progress');
+//	add_menu_item('Dungeonry'  , '/dungeonry.php' , '_self', 'cog');
+//	end_section_submenu();
 
 	start_section_submenu('Cancelled');
 	add_menu_item('SCP 3D'     , '/scp-3d.php'    , '_self', 'blocked');
