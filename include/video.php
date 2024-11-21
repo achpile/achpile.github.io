@@ -9,7 +9,7 @@ function set_section_video($title, $id) {
 
 echo <<<HTMLBLOCK
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/$id?feature=player_detailpage" frameborder="0" allowfullscreen>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/$id?feature=player_detailpage" frameborder="0" allowfullscreen>
 </iframe>
 
 HTMLBLOCK;
