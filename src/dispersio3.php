@@ -21,8 +21,9 @@
 //######################################################################
 
 	set_links_start('Links');
-	set_link('github', 'Source code', 'https://github.com/achpile/dispersio3');
-	set_link('sfml'  , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=29723.0');
+	set_link('github'  , 'Source code', 'https://github.com/achpile/dispersio3');
+	set_link('sfml'    , 'SFML Thread', 'http://en.sfml-dev.org/forums/index.php?topic=29723.0');
+	set_link('download', 'Demo v0.4.0', 'https://github.com/achpile/dispersio3/releases/tag/v0.4.0');
 	set_links_end();
 
 //######################################################################
