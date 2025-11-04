@@ -44,10 +44,7 @@ function set_menu() {
 	add_menu_item('AchBall'    , '/achball.php'   , '_self', 'steam');
 	add_menu_item('Dispersio'  , '/dispersio.php' , '_self', 'steam');
 	add_menu_item('Dispersio 2', '/dispersio2.php', '_self', 'steam');
-	end_section_submenu();
-
-	start_section_submenu('In progress');
-	add_menu_item('Dispersio 3', '/dispersio3.php', '_self', 'cog');
+	add_menu_item('Dispersio 3', '/dispersio3.php', '_self', 'steam');
 	end_section_submenu();
 
 	start_section_submenu('Cancelled');
