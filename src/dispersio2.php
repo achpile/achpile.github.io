@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio 2 is a retro-styled metroidvania. As you progress through the game, you will gain new abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players. Can you beat the game with only 1 HP? ');
+	set_subsection_text('Dispersio 2 is a retro-style metroidvania. As you progress through the game, you will gain new abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players. Can you beat the game with only 1 HP? ');
 	set_subsection_footer();
 
 //######################################################################

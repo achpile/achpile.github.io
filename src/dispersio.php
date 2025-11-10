@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio is a retro-styled action platformer. As you progress through the game, you will have to use and combine special abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players.');
+	set_subsection_text('Dispersio is a retro-style action platformer. As you progress through the game, you will have to use and combine special abilities, such as dashing, wall-jumping and more. There\'s even a hard mode for hardcore players.');
 	set_subsection_footer();
 
 //######################################################################

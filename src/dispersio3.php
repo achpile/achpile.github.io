@@ -15,7 +15,7 @@
 //######################################################################
 
 	set_subsection_header('Description');
-	set_subsection_text('Dispersio 3 is a retro-styled action platformer. As you progress through the game, you will face different obstacles, such as wind, water or antigravity. There\'s even a hard mode for hardcore players. ');
+	set_subsection_text('Dispersio 3 is a retro-style action platformer. As you progress through the game, you will face intense obstacles, like oppressing winds, treacherous waters or antigravity challenges. There\'s even a hard mode for hardcore players.');
 	set_subsection_footer();
 
 //######################################################################
